@@ -70,6 +70,7 @@ a:active {
 	padding-top: 200px;
 }
 .column {
+	color: darkslategray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,6 +78,25 @@ a:active {
 
 .column span {
 	font-size: 30px;
+	font-weight: bold;
+}
+.about a{
+	color: darkslategray;
+	font-weight: bold;
+	padding: 30px;
+}
+.about a:hover{
+	color: brown;
+	padding: 30px;
+	text-decoration: none;
+}
+.about a:active{
+	color: lightcoral;
+	padding: 30px;
+	text-decoration: none;
+}
+.work {
+	font-size: 60px;
 	font-weight: bold;
 }
 #email {
