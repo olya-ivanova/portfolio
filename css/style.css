@@ -1,8 +1,16 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;
+}
+/*
+body {
+  background-image: url("../images/photo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+*/
 body, html {
   height: 100%;
   color: #777;
-  background-color: beige;
   line-height: 1.8;
 }
 a:link {
@@ -10,12 +18,48 @@ a:link {
   text-decoration: none;
 }
 a:hover {
-  color: brown;
+  color: black;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:active {
-  color: hotpink;
+  color: brown;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
+}
+.navigation {
+	text-align: center; 
+}
+.navigation a{
+	color: gray;
+	padding: 30px;
+}
+.navigation a:hover{
+	color: black;
+	padding: 30px;
+	text-decoration: none;
+}
+.navigation a:active{
+	color: brown;
+	padding: 30px;
+	text-decoration: none;
+}
+
+.about {
+	text-align: center; 
+}
+.aboutMe p{
+	text-align: center;
+	margin: 0;
+}
+#paragraph1 {
+	padding-top: 120px;
+	font-size: 40px;
+}
+#paragraph2 {
+	letter-spacing: 10px;
+	font-size: 60px;
+}
+#paragraph3 {
+	font-size: 30px;
 }
