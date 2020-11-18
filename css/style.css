@@ -1,19 +1,18 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;
 }
-/*
 body {
   background-image: url("../images/photo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
-*/
 body, html {
   height: 100%;
-  color: #777;
+  color: white;
   line-height: 1.8;
 }
 a:link {
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -31,7 +30,8 @@ a:active {
 	text-align: center; 
 }
 .navigation a{
-	color: gray;
+	color: white;
+	font-weight: bold;
 	padding: 30px;
 }
 .navigation a:hover{
@@ -61,4 +61,27 @@ a:active {
 }
 #paragraph3 {
 	font-size: 30px;
+}
+.classh3 {
+	text-align: center;
+}
+
+#idfirsth3 {
+	padding-top: 200px;
+}
+.column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column span {
+	font-size: 30px;
+	font-weight: bold;
+}
+#email {
+	padding: 20px;
+}
+.footer {
+	text-align: center;
 }
