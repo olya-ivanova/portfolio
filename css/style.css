@@ -45,7 +45,6 @@ a:active {
 	padding: 30px;
 	text-decoration: none;
 }
-
 .about {
 	text-align: center; 
 	font-family: 'Xanh Mono', monospace;
@@ -78,11 +77,6 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.column span {
-	font-size: 30px;
-	font-weight: bold;
 }
 .about a{
 	color: darkslategray;
