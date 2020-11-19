@@ -64,13 +64,11 @@ a:active {
 }
 #paragraph3 {
 	font-size: 30px;
+	padding-bottom: 200px;
 }
 .classh3 {
 	text-align: center;
-}
-
-#idfirsth3 {
-	padding-top: 200px;
+    background-color: lightgrey;
 }
 .column {
 	color: darkslategray;
