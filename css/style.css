@@ -48,6 +48,7 @@ a:active {
 
 .about {
 	text-align: center; 
+	font-family: 'Xanh Mono', monospace;
 }
 .aboutMe p{
 	text-align: center;
