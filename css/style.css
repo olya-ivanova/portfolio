@@ -54,6 +54,7 @@ a:active {
 }
 #paragraph1 {
 	padding-top: 120px;
+	font-family: 'Xanh Mono', monospace;
 	font-size: 40px;
 }
 #paragraph2 {
