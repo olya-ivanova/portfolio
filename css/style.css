@@ -48,6 +48,7 @@ a:active {
 .about {
 	text-align: center; 
 	font-family: 'Xanh Mono', monospace;
+	font-size: 20px;
 }
 .aboutMe p{
 	text-align: center;
@@ -75,6 +76,7 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+	font-size: 18px;
 }
 .about a{
 	color: darkslategray;
@@ -95,9 +97,26 @@ a:active {
 	font-size: 60px;
 	font-weight: bold;
 }
-#email {
-	padding: 20px;
-}
 .footer {
 	text-align: center;
+}
+#email {
+	padding: 20px;
+	font-size: 20px;
+}
+#phone {
+	padding: 20px;
+	font-size: 20px;
+}
+#email i {
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 4px darkslategray;
+	padding-right: 10px;
+}
+#phone i {
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 4px darkslategray;
+	padding-right: 10px;
 }
